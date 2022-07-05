@@ -99,10 +99,10 @@ html {
 .content-main {
   grid-column: 2/3;
   grid-row: 2/3;
-	background-image: url(../img/images.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+  background-image: url(../img/images.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 .swiper {
   height: calc(100vh - 100px);
@@ -121,14 +121,15 @@ html {
 .swiper-vertical > .swiper-pagination-bullets {
   right: inherit;
   left: 60px;
-	top: 150px;
+  top: 150px;
   position: absolute;
   width: 200px;
   flex-basis: 200px;
 }
-.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
-	margin-top: 20px;
-	margin-bottom: 20px;
+.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .swiper-pagination-bullet-active {
   background: transparent;
@@ -147,24 +148,24 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-	background: #383838;
-	backdrop-filter: blur(50px);
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: #fff;
+  background: #383838;
+  backdrop-filter: blur(50px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
 }
 .swiper__info {
-	display: grid;
-  grid-column: 1;  
-	gap: 5%;
-	padding-left: 60px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5%;
+  padding-left: 60px;
+	margin: 10px 0;
 }
 .first__info {
   grid-column: 1/6;
-	grid-row: 1/2;
+  grid-row: 1/2;
 }
 .swiper__info img {
-	width: 50px;
+  width: 50px;
 }
-
