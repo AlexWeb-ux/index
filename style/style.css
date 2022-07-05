@@ -28,7 +28,7 @@ html {
   height: 100px;
   background-color: #383838;
   border: none;
-  background-image: url(/img/menu.svg);
+  background-image: url(../img/menu.svg);
   background-size: 40px 40px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -51,13 +51,13 @@ html {
   background-size: cover;
 }
 .content__html {
-  background-image: url(/img/html.png);
+  background-image: url(../img/html.png);
 }
 .content__css {
-  background-image: url(/img/css.png);
+  background-image: url(../img/css.png);
 }
 .content__js {
-  background-image: url(/img/js.png);
+  background-image: url(../img/js.png);
 }
 .content-header {
   grid-column: 2/3;
@@ -89,7 +89,7 @@ html {
   font-size: 18px;
 }
 .content-header__link.walet {
-  background-image: url(/img/menu.svg);
+  background-image: url(../img/menu.svg);
   display: block;
   width: 24px;
   height: 24px;
@@ -99,7 +99,7 @@ html {
 .content-main {
   grid-column: 2/3;
   grid-row: 2/3;
-	background-image: url(/img/images.jpg);
+	background-image: url(../img/images.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
