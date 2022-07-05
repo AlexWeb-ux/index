@@ -99,7 +99,7 @@ html {
 .content-main {
   grid-column: 2/3;
   grid-row: 2/3;
-	background-image: url(/mg/images.jpg);
+	background-image: url(/img/images.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -156,28 +156,15 @@ html {
 }
 .swiper__info {
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: auto 1fr;
-  gap: 5%;
-	flex-basis: calc(100% - 300px);
+  grid-column: 1;  
+	gap: 5%;
 	padding-left: 60px;
 }
 .first__info {
   grid-column: 1/6;
 	grid-row: 1/2;
 }
-.swiper__img {
-  width: 200px;
-	height: 200px;
-	position: relative;
-	overflow: hidden;
+.swiper__info img {
+	width: 50px;
 }
-.swiper-cover__img {
-  width: 200px;
-	height: 200px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	object-fit: cover;
-}
+
